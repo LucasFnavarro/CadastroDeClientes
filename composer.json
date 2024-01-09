@@ -1,0 +1,16 @@
+{
+    "name": "desktop/clientes",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas Navarro",
+            "email": "navarrolucas0009@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/"
+        }
+    }
+}
