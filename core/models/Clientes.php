@@ -33,12 +33,5 @@ class Clientes{
         ];
 
         $db->insert("INSERT INTO pessoas VALUES(0, :nome, :email, :telefone, :cidade)", $parametros);
-
-        
-
-
-    }
-
-
-
+   }
 }
