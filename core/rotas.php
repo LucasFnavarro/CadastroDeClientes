@@ -1,7 +1,6 @@
 <?php 
 
 $rotas = [
-    
     'inicio' => 'main@index',
     'cadastro' => 'main@cadastro',
     'cadastro_submit' => 'main@cadastro_submit',
@@ -11,7 +10,6 @@ $rotas = [
 $acao = 'inicio';
 
 if(isset($_GET['a'])){
-
     if(!key_exists($_GET['a'], $rotas)){
         $acao = 'inicio';
     }else {
